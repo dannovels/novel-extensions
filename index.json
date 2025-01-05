@@ -1,0 +1,40 @@
+[
+  {
+    "name": "AnnasArchive",
+    "pkg": "some.random.novels",
+    "apk": "some.random.novels.apk",
+    "lang": "all",
+    "code": 6,
+    "version": "1.6",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "AnnasArchive",
+        "lang": "all",
+        "id": "4273510687828550053",
+        "baseUrl": "https://annas-archive.org"
+      }
+    ]
+  },
+  {
+    "name": "Libgen",
+    "pkg": "some.random.libgen",
+    "apk": "some.random.libgen.apk",
+    "lang": "all",
+    "code": 4,
+    "version": "1.4",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Libgen",
+        "lang": "all",
+        "id": "0510365478052738285",
+        "baseUrl": "https://libgen.is"
+      }
+    ]
+  }
+]
