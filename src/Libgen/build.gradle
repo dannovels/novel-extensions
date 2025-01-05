@@ -1,0 +1,15 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'com.google.devtools.ksp'
+
+
+ext {
+    extName = 'Libgen'
+    extVersionName = "1.4"
+    extVersionCode = 4
+    extSuffix = 'libgen'
+}
+
+apply from: "$rootDir/common.gradle"

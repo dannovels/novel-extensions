@@ -1,0 +1,15 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'com.google.devtools.ksp'
+
+
+ext {
+    extName = 'AnnaArchive'
+    extVersionName = "1.6"
+    extVersionCode = 6
+    extSuffix = 'novels'
+}
+
+apply from: "$rootDir/common.gradle"
